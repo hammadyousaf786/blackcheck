@@ -1,9 +1,4 @@
-<?php
 
-$params = $_POST;
-
-if (empty($params)) {
-    $params = $_GET;
 }
 
 define('DATA_FILE', "blacklist.json");
